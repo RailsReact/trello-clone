@@ -5,7 +5,7 @@ interface CardProps {
   text: string
 }
 
-exports const Card = ({ text }: CardProps) => {
+export const Card = ({ text }: CardProps) => {
   return (
     <CardContainer>{text}</CardContainer>
   )
